@@ -1,0 +1,23 @@
+{
+            "role" : "assistant",
+            "tool_calls" : [
+                 {
+                        "function": {
+                            "name": "GetWorkspaces",
+                            "arguments": "{}"
+                        },
+                        "id": "chatcmpl-tool-bcc1fc8751454721978387bf54ece69b",
+                        "type": "function"
+                    }
+            ]
+        },
+        {
+            "role" : "tool",
+            "tool_call_id" : "chatcmpl-tool-bcc1fc8751454721978387bf54ece69b",
+            "content" :  [
+                {
+                    "type":"text",
+                    "text":"[{id:8913,name:Marketing meetings},{id:8923,name:Support queries}]"
+                }
+            ]
+        }
